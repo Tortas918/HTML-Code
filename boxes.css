@@ -1,0 +1,40 @@
+div{
+        background-color: darkslategray;
+        display:inline-block;
+            color: white;
+    text-align: center;
+    outline: 1px solid darkorange;
+}  
+
+.grandparent {
+    width: 100%;
+     background-color: darkorange;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     height: 30vh;
+    
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-direction: column;
+    
+}
+
+.child{
+    background-color: darkslategrey;
+    height: 25%;
+    width: 90%;
+}
+
+.parent:last-child{
+    flex-direction: row;
+}
+
+body{
+    margin: 0;
+}
+/*last thing we did was set up the height and width of the chiudlren in both parent brackets. we are almost done!
