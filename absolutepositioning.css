@@ -1,0 +1,37 @@
+div{
+    background-color: rgb(0, 255, 106);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+body{
+    position: relative;
+    height: 200vh;
+    margin: 0;
+}
+
+#top-right{
+   top: 0;
+   right: 0;
+}
+
+#bottom-left{
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right{
+    bottom: 0;
+    right: 0;
+}
+
+#center{
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -150px; 
+}
